@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public class viewportContainer : ViewportContainer
+public class Camera : Camera2D
 {
 	// Declare member variables here. Examples:
 	// private int a = 2;
@@ -12,7 +12,6 @@ public class viewportContainer : ViewportContainer
 	{
 		
 	}
-	
 
 //  // Called every frame. 'delta' is the elapsed time since the previous frame.
 //  public override void _Process(float delta)

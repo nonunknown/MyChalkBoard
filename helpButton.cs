@@ -12,7 +12,7 @@ public class helpButton : Button
     public float targetTutorialSpriteAlpha=0;
     public override void _Ready()
     {
-        tutorialSprite=(Sprite)Owner.GetNode("tutorial");
+        tutorialSprite=GetTree().GetNodesInGroup("TUT")[0] as Sprite;
     }
     public override void _Process(float delta)
     {
